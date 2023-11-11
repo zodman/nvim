@@ -1,4 +1,5 @@
 return {
+  { "sainnhe/sonokai" },
   { "navarasu/onedark.nvim" },
   { "shaunsingh/solarized.nvim" },
   {

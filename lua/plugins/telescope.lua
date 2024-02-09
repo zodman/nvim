@@ -1,9 +1,9 @@
 return {
   "nvim-telescope/telescope.nvim",
   opts = {
-    path_display = { "smart" },
+    path_display = { "truncate" },
     defaults = {
-      path_display = { "smart" },
+      path_display = { "truncate" },
     },
   },
 }

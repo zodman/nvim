@@ -2,10 +2,14 @@
   "extras": [
     "lazyvim.plugins.extras.editor.aerial",
     "lazyvim.plugins.extras.editor.outline",
+    "lazyvim.plugins.extras.editor.refactoring",
     "lazyvim.plugins.extras.formatting.black",
+    "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.angular",
-    "lazyvim.plugins.extras.lang.omnisharp",
+    "lazyvim.plugins.extras.lang.docker",
+    "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.python",
+    "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.lsp.none-ls",
     "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.mini-hipatterns"

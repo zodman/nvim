@@ -1,19 +1,5 @@
 return {
-  -- { "stevearc/dressing.nvim", event = "VeryLazy" },
-  -- { "echasnovski/mini.bufremove", version = "*" },
   { "akinsho/git-conflict.nvim", version = "*", config = true },
-
-  -- {
-  --   "hedyhli/outline.nvim",
-  --   lazy = true,
-  --   cmd = { "Outline", "OutlineOpen" },
-  --   keys = { -- Example mapping to toggle outline
-  --     { "<leader>tt", "<cmd>Outline<CR>", desc = "Toggle outline" },
-  --   },
-  --   opts = {
-  --     -- Your setup opts here
-  --   },
-  -- },
 
   {
     "linrongbin16/gitlinker.nvim",
@@ -23,17 +9,10 @@ return {
     end,
   },
 
-  -- {
-  --   "jiaoshijie/undotree",
-  --   dependencies = "nvim-lua/plenary.nvim",
-  --   config = true,
-  --   keys = { -- load the plugin only when using it's keybinding:
-  --     { "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
-  --   },
-  -- },
   {
     "neovim/nvim-lspconfig",
     opts = {
+      format = { timeout_ms = 120000 },
       servers = { eslint = {} },
       setup = {
         eslint = function()
@@ -48,6 +27,13 @@ return {
           end)
         end,
       },
+    },
+  },
+  {
+    "andythigpen/nvim-coverage",
+    event = "VeryLazy",
+    opts = {
+      auto_reload = true, -- automatically reload coverage file on changes
     },
   },
 }

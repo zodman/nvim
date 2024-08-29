@@ -30,13 +30,20 @@ return {
     },
   },
   {
-    "nvim-tree/nvim-web-devicons",
-    lazy = true,
-    config = true,
-  },
-  {
     "xiyaowong/transparent.nvim",
     version = "*",
     config = true,
+  },
+  {
+
+    "echasnovski/mini.icons",
+    opts = {
+      extension = {
+        ["utils.ts"] = { glyph = "󰻲", hl = "MiniIconsAzure" },
+        ["service.ts"] = { glyph = "󰪭", hl = "MiniIconsAzure" },
+        ["module.ts"] = { glyph = "󰚿", hl = "MiniIconsAzure" },
+        ["spec.ts"] = { glyph = "", hl = "MiniIconsAzure" },
+      },
+    },
   },
 }

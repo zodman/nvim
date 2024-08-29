@@ -54,4 +54,30 @@ return {
       comment_italic = true, -- boolean
     },
   },
+  {
+    "daschw/leaf.nvim",
+    opt = {
+      theme = "auto", -- default, based on vim.o.background, alternatives: "light", "dark"
+      contrast = "high", -- default, alternatives: "medium", "high"
+    },
+  },
+  {
+    "kartikp10/noctis.nvim",
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    opt = {
+      transparent = true,
+      styles = {
+        comments = "italic",
+        keywords = "bold",
+        types = "italic,bold",
+      },
+    },
+  },
+
+  {
+    "Tsuzat/NeoSolarized.nvim",
+    lazy = false, -- make sure we load this during startup if it is your main colorscheme
+  },
 }

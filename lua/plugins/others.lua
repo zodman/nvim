@@ -39,11 +39,22 @@ return {
     "echasnovski/mini.icons",
     opts = {
       extension = {
+
         ["utils.ts"] = { glyph = "󰻲", hl = "MiniIconsAzure" },
+        ["controller.ts"] = { glyph = "󰮂", hl = "MiniIconsAzure" },
+        ["interceptor.ts"] = { glyph = "󰕝", hl = "MiniIconsAzure" },
         ["service.ts"] = { glyph = "󰪭", hl = "MiniIconsAzure" },
         ["module.ts"] = { glyph = "󰚿", hl = "MiniIconsAzure" },
         ["spec.ts"] = { glyph = "", hl = "MiniIconsAzure" },
+        ["schema.ts"] = { glyph = "󱙋", hl = "MiniIconsAzure" },
       },
     },
   },
+  -- {
+  --   "dmmulroy/tsc.nvim",
+  --   config = function()
+  --     require("tsc").setup()
+  --   end,
+  -- },
+  { "kilavila/nvim-bufferlist" },
 }

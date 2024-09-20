@@ -3,3 +3,6 @@
 -- Add any additional autocmds herebyv
 vim.wo.relativenumber = false
 -- vim.o.shortmess = "A"
+--
+--
+--

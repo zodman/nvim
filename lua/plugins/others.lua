@@ -33,6 +33,15 @@ return {
     "xiyaowong/transparent.nvim",
     version = "*",
     config = true,
+    opts = {
+      extra_groups = {
+        "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
+        "NvimTreeNormal",
+        "NeoTreeNormal",
+        "NeoTreeFloatBorder",
+        "NeoTreeNormalNC",
+      },
+    },
   },
   {
 
